@@ -1,0 +1,41 @@
+ <!-- ======= Hero Section ======= -->
+ <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Powerful Digital Solutions With Gp<span>.</span></h1>
+          <h2>We are team of talanted digital marketers</h2>
+        </div>
+      </div>
+
+    
+    </div>
+  </section>
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Team</h2>
+            <p>Check our Team</p>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" *ngFor="let item of Products">
+              <div class="member" data-aos="fade-up" data-aos-delay="200">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>{{item.desc}}</h4>
+                  <span> Price ${{item.price}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End Team Section -->
